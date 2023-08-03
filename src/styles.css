@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  --main-color: rgb(12, 219, 212);
+  --main-color2:rgb(168, 216, 214);
+  --main-color3:rgb(118, 252, 124);
+  --seconde-color: #32383e;
+  --color-text: #fff;
+  --btn-main-color: #205072;
+  --mocolor: #09c;
+  --mainbackground:linear-gradient(109.6deg, var( --main-color) 11.2%, var(--main-color2) 55.4%, var(--main-color3) 100.2%);
+}
+body {
+    color: var(--color-text);
+    font-family: "AraHamahAlThawra", "AraHamah1964B", "OCRAEXT", "Comic Sans", Helvetica, Arial, sans-serif !important;
+    font-size: 16px;
+    background: var(--mainbackground);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 400;
+    animation: backgroundrotation 10s ease infinite;
+}
+
+@keyframes backgroundrotation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 50% 50%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+.startmo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.startmo .line {
+  height: 5px;
+  width: 200px;
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.fa-star {
+  font-size: 50px;
+  margin: 0 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.maintext{
+  font-size: 50px;
+  font-weight: 900;
+}

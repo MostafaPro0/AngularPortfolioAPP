@@ -1,0 +1,28 @@
+.navbarmo{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all ease 1s;
+}
+
+.nav-item {
+    color: var(--btn-main-color) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: rgb(8, 133, 175) !important;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+
+.nav-link:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(32, 32, 32) !important;
+    transform: translateY(5%);
+}
