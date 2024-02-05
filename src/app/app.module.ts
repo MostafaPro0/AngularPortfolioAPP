@@ -10,6 +10,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     ContactusComponent,
     NavbarComponent,
     FooterComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
